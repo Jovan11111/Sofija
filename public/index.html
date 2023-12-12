@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SofCorrect</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/helloKitty.png" type="image/x-icon">
+</head>
+<body>
+    <img id="helloKittyImage" src="images/helloKitty.png" alt="Rotating Photo">
+    <a href="https://www.youtube.com/watch?v=V54CEElTF_U" target="_blank">
+        <img id="cinnamonroll1Image" src="images/cinnamonroll1.png" alt="Rotating Photo">
+    </a>
+    <a href="https://www.youtube.com/watch?v=Pz-f9mM3Ms8" target="_blank">
+        <img id="cinnamonroll2Image" src="images/cinnamonroll2.webp" alt="Rotating Photo">
+    </a>
+    <a href="https://www.youtube.com/watch?v=vWPJGXaC9w8" target="_blank">
+        <img id="purin1Image" src="images/purin1.png" alt="Rotating Photo">
+    </a>
+    <a href="https://www.youtube.com/watch?v=4-XAvP8atoc" target="_blank">
+        <img id="purin2Image" src="images/purin2.png" alt="Rotating Photo">
+    </a>
+    <div class="container">
+        <h1 class="fileUploadText">File Upload</h1>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <input class = "chooseFileButton" type="file" name="file" id="fileInput" accept=".txt" required>
+            <button type="button" onclick="uploadFile()">Upload File</button>
+        </form>
+        <div id="uploadStatus"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

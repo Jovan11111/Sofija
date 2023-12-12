@@ -1,0 +1,133 @@
+body {
+    display: flex;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: rgb(250, 1, 121);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(images/backgroundImage.png);
+}
+
+.container {
+    text-align: center;
+    background-color: #f6cbcb;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(211, 42, 143, 0.7);
+}
+
+h1 {
+    color: rgb(250, 1, 121);
+}
+
+form {
+    margin: 20px 0;
+}
+.chooseFileButton{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgb(250, 1, 121);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(211, 42, 143, 0.7);
+
+}
+    button {
+    padding: 10px 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 16px;
+    background-color: rgb(250, 1, 121);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(211, 42, 143, 0.7);
+
+}
+button:hover{
+    font-weight: bold;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.fileUploadText{
+    padding-bottom: 10px;
+}
+
+#uploadStatus {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#helloKittyImage {
+    width: 250px; 
+    height: auto;
+    animation: rotateAnimation 2s linear infinite alternate;
+
+    position: absolute;
+    top: 50px;
+
+}
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(10deg);
+    }
+}
+
+#cinnamonroll1Image{
+    width: 250px; 
+    height: auto;
+    animation: rotateAnimation 2.8s linear infinite alternate;
+
+    position: absolute;
+    top: 80px;
+    left: 128px; 
+    filter: drop-shadow(5px 5px 10px rgba(211, 42, 143, 0.7));
+  
+}
+#cinnamonroll2Image{
+    width: 250px; 
+    height: auto;
+    animation: rotateAnimation 2.2s linear infinite alternate;
+
+    position: absolute;
+    bottom: 70px;
+    right: 120px;   
+    filter: drop-shadow(5px 5px 10px rgba(211, 42, 143, 0.7));
+
+}
+
+#purin1Image{
+    width: 250px; 
+    height: auto;
+    animation: rotateAnimation 2.4s linear infinite alternate;
+
+    position: absolute;
+    top: 80px;
+    right: 120px;  
+    filter: drop-shadow(5px 5px 10px rgba(211, 42, 143, 0.7));
+
+}
+
+#purin2Image{
+    width: 250px; 
+    height: auto;
+    animation: rotateAnimation 2.6s linear infinite alternate;
+
+    position: absolute;
+    bottom: 80px;
+    left: 112px;  
+    filter: drop-shadow(5px 5px 10px rgba(211, 42, 143, 0.7));
+
+}
