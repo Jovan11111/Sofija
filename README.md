@@ -1,1 +1,1 @@
-A simple APP I made for my girlfriend
+A simple app I made for my girlfriend as a new year gift
