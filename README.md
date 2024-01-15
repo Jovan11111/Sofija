@@ -21,3 +21,5 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 # Acknowledgments
 Thank you to my girlfriend for inspiring me to create this application
+
+![image](https://github.com/Jovan11111/Sofija/assets/75695070/ff1d1009-0413-40cc-893f-cfb94c0c7f60)
