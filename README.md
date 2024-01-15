@@ -6,7 +6,8 @@ This is a simple server-side JavaScript application that I made as a gift for my
 - Capitalizes the first letter of sentences after periods
 - Capitalizes single "I"s
 - Fixes bulleted lists by ensuring each bullet point ends with a period, and is spaced correctlly
-
+- 
+There are some other hidden features that I will not disclose here, but leave for a user to discover
 # Getting Started
 To use this application, you'll need to have Node.js installed on your server. Once you have Node.js installed, follow these steps:
 
