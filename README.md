@@ -17,9 +17,6 @@ Run node server.js to start the application.
 Usage
 To use the application, simply upload a text file to the server. The application will fix the text and return the corrected version.
 
-# License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
-
 # Acknowledgments
 Thank you to my girlfriend for inspiring me to create this application
 
